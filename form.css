@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: purple;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form > h1 {
+  color: white;
+  font-size:35px;
+  font-family:sans-serif;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+.section {
+  background-color: white;
+  height:550px;
+  width:450px;
+  position: relative;
+  top: 50px;
+  border-radius:8px;
+}
+.section > h2 {
+  text-align: center;
+  color: purple;
+  font-size: 28px;
+  word-spacing: -5px;
+  font-family:monospace;
+  padding: 20px 0 0 10px;
+  letter-spacing: -1px;
+}
+.section > p {
+  text-align: center;
+  position: relative;
+  color: grey;
+  font-size: 12px;
+  font-family:cursive;
+  padding: 5px 0 0 20px;
+}
+h4 {
+  font-size: 14px;
+  font-family:cursive;
+  font-weight: bold;
+  letter-spacing: -1px;
+  padding: 10px 0;
+  position: relative;
+  left:50px;
+}
+input,select {
+  width: 330px;
+  height: 30px;
+  position: relative;
+  left: 55px;
+  border: none;
+  background:lightgray;
+  border-radius: 3px;
+}
+.form-elem > button {
+  width:330px;
+  height: 30px;
+  background: purple;
+  position: relative;
+  left: 50px;
+  top: 30px;
+  border-radius: 5px;
+  border:none;
+  font-size: 14px;
+  /* font-weight: bold; */
+  color: white;
+  font-family: monospace;
+  letter-spacing:1px;
+}
+::placeholder {
+  font-size:12px;
+  position: relative;
+  left:20px;
+}
+p {
+  margin-top: 20px;
+}
